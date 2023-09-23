@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const items: MenuProps['items'] = [
     {
         label: 'Login',
-        key: '/login',
+        key: '/',
         icon: <LoginOutlined />
     },
     {
