@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+div{
+  margin: 5px;
+}
+
+ul{
+  justify-content: center;
+}
+
+#root > div{
+  display: block;
+  place-items: center;
+}
+
+.ant-card{
+  display: inline-block;
+}

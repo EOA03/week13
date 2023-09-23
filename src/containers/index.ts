@@ -1,0 +1,5 @@
+export {default as Login} from './Login'
+export {default as Register} from './Register'
+export {default as ListCategory} from './ListCategory'
+export {default as NewCategory} from './NewCategory'
+export {default as UpdateCategory} from './UpdateCategory'
