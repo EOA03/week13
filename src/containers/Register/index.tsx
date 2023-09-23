@@ -6,7 +6,7 @@ import { RegisterForm as RegisterFormComponent } from '../../components';
     const navigate = useNavigate()
 
       const handleRegister = async (values: RegisterForm) => {
-        console.log(`Successfully Registered..!`, values)
+        console.log(`Successfully Registered`, values)
         const apiUrl = import.meta.env.VITE_REACT_APP_REGISTER_URL
     
         try {
@@ -21,7 +21,7 @@ import { RegisterForm as RegisterFormComponent } from '../../components';
             const data = await response.json()
     
             if (response.ok){
-                navigate('/login');
+                navigate('/');
             } else {
                 alert(data.errors)
             }

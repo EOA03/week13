@@ -12,7 +12,7 @@ const App = () => {
       element: <LoginLayout />,
       children: [
         {
-          path: '/login',
+          path: '/',
           element: <Login />
         },
         {

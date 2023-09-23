@@ -13,7 +13,7 @@ const ListCategory: React.FC = () => {
 
   const handleLogOut = () => {
     localStorage.removeItem('authToken');
-    navigate('/login');
+    navigate('/');
   };
 
   const getCategory = async () => {
@@ -41,7 +41,7 @@ const ListCategory: React.FC = () => {
   useEffect(() => {
     const token = localStorage.getItem('authToken');
     if (!token) {
-      navigate('/login');
+      navigate('/');
       return;
     }
     getCategory();
