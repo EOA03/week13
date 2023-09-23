@@ -1,27 +1,47 @@
-# React + TypeScript + Vite
+# Assignment Week 12
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## INTRODUCTION
 
-Currently, two official plugins are available:
+In this assignment is building a React application register and login form, category list using React Lifecycle methods, Hooks, Routing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## SKILL SET
 
-## Expanding the ESLint configuration
+- ✅ React Lifecycle
+- ✅ Hooks
+- ✅ Routing
+- ✅ React UI Component
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## TOOLS
 
-- Configure the top-level `parserOptions` property like this:
+- React & React Hooks
+- Typescript & Typescript XML
+- Ant Design
+- Formik & Yup
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## DETAILS PROJECT
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Login form:
+- Email
+- Password
+
+Register form:
+- Name
+- Email
+- Password
+
+Category list:
+- See all category list
+- Create a category
+- Update a category
+- Delete a category
+
+## DEPLOY
+
+I deploy using Netlify. And this is the status:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8984827f-2568-4fd5-bc5c-eb6dcdf47808/deploy-status)](https://app.netlify.com/sites/week-13-eoa03/deploys)
+
+Here is the [link](https://week-13-eoa03.netlify.app/) where you can access.
+
+That's all for my project. I hope i've already explained it all.
+
+![Thankyou](https://media1.giphy.com/media/osjgQPWRx3cac/giphy.gif)
